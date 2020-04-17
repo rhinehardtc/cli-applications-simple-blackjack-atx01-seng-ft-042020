@@ -46,7 +46,7 @@ end
 def invalid_command
   puts 'Please enter a valid command'
 end
-binding.pry
+
 #####################################################
 # get every test to pass before coding runner below #
 #####################################################
