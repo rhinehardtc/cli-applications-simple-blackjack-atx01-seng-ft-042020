@@ -6,8 +6,8 @@ def deal_card
   return rand(11)
 end
 
-def display_card_total
-  # code #display_card_total here
+def display_card_total(number)
+  
 end
 
 def prompt_user
