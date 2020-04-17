@@ -32,12 +32,11 @@ def initial_round
 end
 
 def hit?(total)
-  valid = ['h', 's']
   prompt_user
   input = get_user_input
   if input == 'h'
     total += deal_card
-  end
+  els
   if input != 'h' && input != 's'
     invalid_command
   end
