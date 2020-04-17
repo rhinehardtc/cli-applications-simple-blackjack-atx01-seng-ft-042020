@@ -37,7 +37,7 @@ def hit?(total)
     deal_card
   end
   if get_user_input != 'h' && get_user_input != 's'
-    invalid_command
+    return invalid_command
   end
   total
 end
