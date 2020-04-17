@@ -39,7 +39,7 @@ def hit?(total)
 end
 
 def invalid_command
-  # code invalid_command here
+  print 
 end
 
 #####################################################
