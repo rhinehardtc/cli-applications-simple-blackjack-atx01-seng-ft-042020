@@ -35,7 +35,6 @@ def hit?(total)
   prompt_user
   get_user_input
   if get_user_input = 'h'
-    binding.pry
     deal_card
   end
   if get_user_input != 'h' && get_user_input != 's'
@@ -43,7 +42,7 @@ def hit?(total)
   end
   total
 end
-
+binding.pry
 def invalid_command
   puts 'Please enter a valid command'
 end
