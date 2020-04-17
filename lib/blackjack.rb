@@ -34,10 +34,10 @@ def hit?(total)
   prompt_user
   get_user_input
   if get_user_input = 'h'
-    return deal_card
+    deal_card
   end
   if get_user_input != 'h' && get_user_input != 's'
-    return invalid_command
+    invalid_command
   end
   total
 end
