@@ -41,7 +41,7 @@ def hit?(total)
 end
 
 def invalid_command
-  p 'Please enter a valid command'
+  print 'Please enter a valid command'
 end
 
 #####################################################
