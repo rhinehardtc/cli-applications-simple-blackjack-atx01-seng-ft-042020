@@ -38,7 +38,7 @@ def hit?(total)
   if input = 'h'
     deal_card
   end
-  if input != 'h' && get_user_input != 's'
+  if input != 'h' && input != 's'
     invalid_command
   end
   total
