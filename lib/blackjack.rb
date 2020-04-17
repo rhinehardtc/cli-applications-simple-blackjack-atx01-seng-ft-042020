@@ -35,7 +35,7 @@ def hit?(total)
   valid = ['h', 's']
   prompt_user
   input = get_user_input
-  if input = 'h'
+  if input == 'h'
     total += deal_card
   end
   if input != 'h' && input != 's'
