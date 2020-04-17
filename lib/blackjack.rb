@@ -1,3 +1,4 @@
+require 'pry'
 def welcome
   puts "Welcome to the Blackjack Table"
 end
@@ -34,6 +35,7 @@ def hit?(total)
   prompt_user
   get_user_input
   if get_user_input = 'h'
+    binding.pry
     deal_card
   end
   if get_user_input != 'h' && get_user_input != 's'
