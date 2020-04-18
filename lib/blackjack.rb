@@ -20,9 +20,7 @@ def get_user_input
 end
 
 def end_game(number)
-  if number > 21
     puts "Sorry, you hit #{number}. Thanks for playing!"
-  end
 end
 
 def initial_round
